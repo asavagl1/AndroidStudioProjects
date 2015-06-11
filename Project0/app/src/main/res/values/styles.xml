@@ -1,0 +1,12 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <color name="appButtons1to5">#42A5F5</color>
+    <color name="appButton6">#5C6BC0</color>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:colorBackground">#FF9E80</item>
+    </style>
+
+</resources>
