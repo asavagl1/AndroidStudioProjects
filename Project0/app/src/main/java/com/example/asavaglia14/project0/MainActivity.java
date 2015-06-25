@@ -45,7 +45,7 @@ public class MainActivity extends ActionBarActivity {
         int duration = Toast.LENGTH_SHORT;
 
         if (view.isPressed()) {
-            Toast.makeText(context, "Spotify App Selected", duration).show();
+            Toast.makeText(context, ((Button) view).getText().toString() + " Selected", duration).show();
         }
     }
 
